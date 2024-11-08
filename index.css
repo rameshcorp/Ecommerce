@@ -1,0 +1,452 @@
+/* Navbar Container */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Aligns logo to the left and nav items to the right */
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+.header{
+    margin-top: 70px;
+}
+
+/* Logo Styling */
+.logo img {
+    width: 160px;
+    height: auto; /* Keeps the image aspect ratio */
+    margin-left: 100px; /* Adjusts logo position */
+    background-color: black;
+}
+
+/* Navigation Bar */
+nav {
+    text-align: right;
+    padding-top: 1px; /* Adjusts the nav position slightly up */
+}
+
+/* Navigation List */
+nav ul {
+    display: inline-flex; /* Horizontally aligns list items */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Navigation List Items */
+nav ul li {
+    margin-left: 55px; /* Adds space between nav items */
+    position: relative;
+    top: -70px; /* Moves the items slightly up */
+    left: -200px; /* Moves the items slightly to the left */
+}
+nav ul li a {
+    text-decoration: none; /* Removes underline */
+    color: inherit; /* Inherits text color */
+    font-weight: bold; /* Optional: make it bold */
+}
+.container{
+    max-width: 13000px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+#header1 {
+    position: relative;
+    left: 150px; /* Moves the element 150px to the right */
+    top: -60px; /* Moves the element 10px upward */
+    text-align: left; /* Aligns text to the left within the element */
+    margin-top: 1px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.col_2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col_2 img {
+    max-width: 100%;
+    padding: 50px 0;
+    position: relative; /* Allows the use of top for positioning */
+    top: -120px; /* Moves the image 30px upward */
+}
+.col_2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.btn {
+    display: inline-block;
+    background: #ff5235;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    text-decoration: none;
+    position: relative; /* Allows movement with top and left properties */
+    top: -80px; /* Moves the button 10px upward */
+    right: -500px; /* Moves the button 10px to the left */
+    transition:  0.5s ease-in-out;
+}
+.btn:hover{
+    background: #563434;
+}
+.btn1:hover{
+    background: #563434;
+}
+.header{
+    background: radial-gradient(#fff,#ffd6d6);
+}
+.categories {
+    margin: 70px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center; /* Centers items horizontally */
+    margin-top: 40px;
+}
+
+.col_3 {
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 10px;
+    padding: 0;
+    margin: 10px;
+}
+
+.col_3 img {
+    width: 100%;
+    max-width: 350px;
+    height: 280px;
+    margin: 0;
+}
+
+.col_4 {
+    flex-basis: 25%; /* This is for 4 columns per row, adjust if needed */
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.col_4 img {
+    width: 80%; /* Set the width to 80% of its container, adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.smallcontainer {
+    max-width: 1000px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.tittle{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 40px;
+    color: #555;
+}
+
+.tittle::after {
+    content: " ";
+    background: #ff523b; /* Red background for the line */
+    width: 80px; /* Width of the line */
+    height: 5px; /* Height of the line */
+    border-radius: 5px; /* Rounded corners for the line */
+    position: absolute; /* Absolute positioning relative to the parent */
+    bottom: 0; /* Position the line at the bottom of the parent element */
+    left: 50%; /* Position the line in the center horizontally */
+    transform: translateX(-50%); /* Offset the line by half its width to truly center it */
+}
+.h4 {
+    color:gray;
+    font-weight: normal;
+}
+
+.col_4  {
+    font-size: 14px;
+}
+.rating {
+    color: #ff523b;
+
+}
+.col_4:hover {
+    transform: translateY(-5px);
+}
+.offer {
+    background: radial-gradient(#fff, #ffd6d6);
+    margin-top: -10px;
+    padding: -100px 0; /* Reduce padding to decrease height */
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.smallcontainer {
+    max-width: 1000px; /* Or whatever width you need for the inner content */
+    margin: auto; /* Center the content inside */
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.offerimg {
+    width: 80%; /* Adjust this percentage or set a specific pixel value, e.g., 300px */
+    max-width: 300px; /* Set a maximum width to control the size */
+    height: auto; /* Maintain the aspect ratio */
+    margin-top: 200px; /* Optional: adjust to move the image slightly down */
+}
+#small{
+    color: #555;
+}
+.btn1{
+    display: inline-block;
+    background: #ff5235;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    text-decoration: none;
+    position: relative; /* Allows movement with top and left properties */
+    top: 30px; /* Moves the button 10px upward */
+    right: -100px; /* Moves the button 10px to the left */
+    
+}
+
+.testimonial {
+    padding-top: 100px;
+    display: flex; /* Enables horizontal alignment */
+    justify-content: center; /* Centers the images in the row */
+    gap: 20px; /* Optional: adds space between images */
+}
+
+.testimonial .col_3 {
+    text-align: center;
+    padding: 40px 20px;
+    flex: 1; /* Ensures each image container takes equal space */
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1); /* Corrected spacing */
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.testimonial .col_3 img {
+    width: 50px;       /* Set width for small circle */
+    height: 50px;      /* Set height equal to width */
+    margin-top: 20px;
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover;  /* Ensure the image scales to fit within the circle */
+}
+
+.testimonial .col_3:hover {
+    transform: translateY(-10px);
+}
+.fa-quote-left{
+    font-size: 34px;
+    color: #ff523b;
+}
+.col_3{
+    font-size: 12px;
+    margin: 12px 0;
+    color: #777;
+}
+
+.testimonial .col_3 h3{
+    font-weight: 600;
+    color: #555;
+    font-size: 16px;
+}
+.brands{
+    margin: 100px auto;
+}
+.col_5{
+    width: 160px;
+}
+.col_5 img{
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+.col_5 img:hover{
+    filter: grayscale(0);
+}
+
+/* footer */
+
+.footer {
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+    width: 100vw; /* Set the width to the full viewport width */
+    margin-left: 0px; /* Remove any left margin */
+    margin-right: 0; /* Remove any right margin */
+    position: relative; /* Ensure it aligns properly across the viewport */
+    left: 50%; /* Position it from the center */
+    transform: translateX(-50%); /* Center across the viewport */
+}
+.footer p{
+    color: #8a8a8a;
+
+}
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-1,.footer-2,.footer-3,.footer-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.footer-1{
+    flex-basis: 30px;
+}
+.footer-2{
+    flex: 1;
+    text-align: center;
+}
+.footer-2 img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+.footer-3,.footer-4{
+    flex-basis: 2%;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+.app-logo{
+    margin-top: 20px;
+}
+.app-logo img{
+    width: 140px;
+}
+#a {
+    position: relative;
+    left: 30px; /* Moves the element 30px to the right */
+}
+
+#b{
+    position: relative;
+    left: 30px; /* Moves the element 30px to the right */
+
+}
+#c{
+    position: relative;
+    left: 30px; /* Moves the element 30px to the right */
+
+}
+#d{
+    position: relative;
+    left: 30px; /* Moves the element 30px to the right */
+
+}
+.footer hr{
+border: none;
+background: #b5b5b5;
+height: 1px;
+margin: 20px 0;
+}
+.copyright{
+    text-align: center;
+}
+.menuicon {
+    width: 28px;
+    margin-left: 1680px; /* Adjust as needed */
+    vertical-align: middle; /* Aligns icon with the cart vertically */
+    margin-top: 0px;
+    vertical-align: middle;
+    visibility: hidden;
+    
+}
+.select{
+    border: 1px solid #ff5235;
+    padding: 5px;
+}
+select:focus{
+    outline: none;
+}
+.page-button{
+    margin: 0 auto 80px;
+}
+.page-button span{
+display:  inline-block;
+border: 1px solid #523b;
+margin-left: 10px;
+width: 40px;
+height: 40px;
+text-align: center;
+line-height: 40px;
+cursor: pointer;
+}
+.page-button span:hover{
+    background: #ff523b;
+    color: #fff;
+}
+.cartpage{
+    margin: 80px auto;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.cartinfo{
+    display: flex;
+    flex-wrap: wrap;
+}
+th{
+    text-align: left;
+    padding: 5px;
+color: #fff;
+background: #ff523b;
+font-weight: normal;
+}
+td{
+    padding: 10px 5px;
+}
+td input{
+    width: 40px;
+    height: 20px;
+    padding: 5px;
+}
+td a{
+    color: #ff5236;
+    font-size: 12px;
+    text-decoration: none;
+    
+}
+td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+/* media querry */
+@media only screen and (max-width=800px){
+    nav ul{
+        position: absolute;
+        top: 70px;
+        width: 100px;
+        left: 0;
+        background: #333;
+    }
+    nav ul li {
+        display: block;
+        margin-left: 50px;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+    nav ul li a {
+        color: #fff;
+    }
+    .menuicon{
+        display: block;
+        cursor: pointer;
+    }
+}
